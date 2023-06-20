@@ -1,9 +1,9 @@
 [package]
-name = "coins"
-version = "0.0.0"
+name = "YupaCoins"
+version = "0.0.1"
 
 [dependencies]
-MoveStdlib = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib", rev = "main" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/devnet" }
 
 [addresses]
-std =  "0x1"
+yupa = "0x0"
