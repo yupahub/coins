@@ -7,7 +7,7 @@ module yupa::luk{
     use sui::transfer;
     use sui::tx_context::{Self, TxContext};
 
-    struct LUK has drop{}
+    struct LUK has drop {}
 
     // init function to transfer ownership to package publisher
     fun init(witness: LUK, ctx: &mut TxContext){
